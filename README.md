@@ -30,11 +30,12 @@ Setup Instructions
 ------------------
 1-Clone the Repository: git clone https://github.com/Mariat2001/Employee-Management.git
 2-Frontend Setup:
-                .Navigate to the frontend directory: cd Employee-Management/frontend
-                .Install dependencies:npm install
+                .Navigate to the frontend directory: cd Employee-Management/ems-Frontend  
+                .Install dependencies:npm install 
+                                      npm install react-bootstrap bootstrap
               
 3-Backend Setup:
-               .Navigate to the backend directory: cd ../backend
+               .Navigate to the backend directory: cd ../ems-backend
                .Set up your MS SQL Server database and configure the connection details in application.properties->
                       spring.jpa.properties.hibernate.format_sql=true
 
@@ -49,7 +50,7 @@ Setup Instructions
 
                .Build the backend application:mvn clean install
 4-Start the Application:
-               .Start the backend server:mvn spring-boot:run
+               .Start the backend server:mvn spring-boot:run(you need to install maven)
                .Start the frontend development server:npm run dev
 
 
