@@ -28,7 +28,8 @@ Database:
 
 Setup Instructions
 ------------------
-1-Clone the Repository: git clone https://github.com/Mariat2001/Employee-Management.git
+1-Clone the Repository: git clone https://github.com/Mariat2001/Employee-Management.git 
+
 2-Frontend Setup:
                 .Navigate to the frontend directory: cd Employee-Management/ems-Frontend  
                 .Install dependencies:npm install 
