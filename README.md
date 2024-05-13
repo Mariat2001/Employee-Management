@@ -31,8 +31,10 @@ Setup Instructions
 1-Clone the Repository: git clone https://github.com/Mariat2001/Employee-Management.git 
 
 2-Frontend Setup:
+
                 .Navigate to the frontend directory: cd Employee-Management/ems-Frontend  
-                .Install dependencies:npm install 
+                
+                .Install dependencies:npm install/
                                       npm install react-bootstrap bootstrap
               
 3-Backend Setup:
