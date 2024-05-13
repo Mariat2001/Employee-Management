@@ -36,7 +36,9 @@ Setup Instructions
                                       npm install react-bootstrap bootstrap
               
 3-Backend Setup:
+
                .Navigate to the backend directory: cd ../ems-backend
+               
                .Set up your MS SQL Server database and configure the connection details in application.properties->
                       spring.jpa.properties.hibernate.format_sql=true
 
@@ -48,8 +50,10 @@ Setup Instructions
                       spring.jpa.hibernate.ddl-auto= update
 
                       server.port ="port number" (optional)
+                      
 
                .Build the backend application:mvn clean install
+               
 4-Start the Application:
                .Start the backend server:mvn spring-boot:run(you need to install maven)
                .Start the frontend development server:npm run dev
